@@ -73,6 +73,7 @@ func main() {
 
 	case *list:
 		todos.Print()
+
 	default:
 		fmt.Fprintln(os.Stdout, "Invalid Command")
 		os.Exit(0)
